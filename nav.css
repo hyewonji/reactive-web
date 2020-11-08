@@ -71,6 +71,39 @@ a{
     justify-items: center;
 }
 
+@media screen and (max-width:768px){
+    .js-navBar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
 
+    .navBar__categories{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navBar__categories li{
+        width:100%;
+        text-align: center;
+    }
+
+    .navBar__icons{
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .navBar__toogleBtn{
+        display: block;
+    }
+    
+    .navBar__categories.active,
+    .navBar__icons.active{
+        display: flex;
+    }
+}
 
 
