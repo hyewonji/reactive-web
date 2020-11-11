@@ -7,10 +7,11 @@ function loadMenu() {
     menu.classList.toggle("active");
     toggleBtn.classList.toggle("active");
     if (navbar.querySelector(".active")) {
-        console.log("yes")
+        navbar.style.width = 100 + "%";
+        navbar.style.height = 100 + "%";
         icon.className = "fas fa-times";
     } else {
-        console.log("no")
+        navbar.style.height = 0 + "%";
         icon.className = "fas fa-bars";
     }
 }

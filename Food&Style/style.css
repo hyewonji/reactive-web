@@ -1,4 +1,8 @@
+@import "https://fonts.googleapis.com/css2?family=Bad+Script&family=Nanum+Gothic:wght@400;700&family=Noto+Sans:wght@400;700&display=swap";
 @import "navbar.css";
+@import "main.css";
+
+
 
 *{
     box-sizing: border-box;

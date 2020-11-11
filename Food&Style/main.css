@@ -1,0 +1,62 @@
+:root{
+    --main-color:#47287C;
+}
+
+.js-main{
+    background-image: url(https://static.wixstatic.com/media/9b6c7d_9708035a3a48488f9932749e4fb6a87c~mv2_d_1920_1200_s_2.jpg/v1/fill/w_980,h_862,al_c,q_85,usm_0.66_1.00_0.01/9b6c7d_9708035a3a48488f9932749e4fb6a87c~mv2_d_1920_1200_s_2.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__main{
+    background-color: white;
+    margin: 200px 100px;
+    padding:50px 160px 50px 50px;
+    display:flex;
+}
+
+.main__main img{
+    width: 180px;
+    height: 225px;
+}
+
+.main__main .span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    height: 225px;
+    color: var(--main-color);
+}
+
+.span a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 23px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.years{
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+}
+
+.food{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+}
+
+.style{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.bar{
+    border-top: 7px solid var(--main-color);
+    width: 70px;
+    margin: 30px 0 ;
+}
+
+
