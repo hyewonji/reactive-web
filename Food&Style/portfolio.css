@@ -1,0 +1,54 @@
+.main__portfolio{
+    width:100%;
+    height: 600px;
+    color:white;
+    margin-bottom: 600px;
+}
+
+.portfolio__lists{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 100%;
+    padding-left: 0;
+}
+
+.portfolio__lists li{
+    display: flex;
+    text-decoration: none;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio__lists div{
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__lists span{
+    padding-bottom: 7px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.portfolio__lists a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+}
+
+.portfolio__lists li:first-child{
+    background-color: #5098BA;
+}
+
+.portfolio__lists li:nth-child(2){
+    background-color: #47287C;
+}
+
+.portfolio__lists li:last-child{
+    background-color: #9A69C2;
+}
+
+.portfolio__lists a{
+    text-decoration: none;
+    color:white;
+}
