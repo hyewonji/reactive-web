@@ -52,3 +52,15 @@
     text-decoration: none;
     color:white;
 }
+
+@media screen and (max-width:768px){
+    .portfolio__lists{
+        flex-direction: column;
+    }
+    
+    .portfolio__lists li{
+        height: 100%;
+        justify-content: left;
+        padding-left: 20%;
+    }
+}
