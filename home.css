@@ -1,7 +1,26 @@
-.js-home img{
-    width: 400px;
-    height: 800px;
+.js-home{
+    padding-left: 0;
+    padding: 12px 24px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat((2,400px));
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat((1,1fr));
 }
+
+.js-home li{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.js-home img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:810px){
+    .js-home{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr));
+        
+    }
+} 
