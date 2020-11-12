@@ -2,9 +2,17 @@
 @import "navbar.css";
 @import "main.css";
 @import "portfolio.css";
+@import "introduction.css";
+@import "qna.css";
+@import "top.css";
 
 *{
     box-sizing: border-box;
+}
+
+:root{
+    --main-color:#47287C;
+    --white-color:white;
 }
 
 html,
@@ -19,6 +27,7 @@ body{
     url("https://static.wixstatic.com/media/9b6c7d_c2965cb0d51643b49622ca75f4f9d933~mv2_d_5031_3354_s_4_2.jpg/v1/fill/w_980,h_717,al_c,q_85,usm_0.66_1.00_0.01/9b6c7d_c2965cb0d51643b49622ca75f4f9d933~mv2_d_5031_3354_s_4_2.jpg");
     background-repeat: no-repeat,no-repeat;
     background-position: center top, center bottom;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;

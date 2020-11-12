@@ -1,0 +1,80 @@
+.main__qna{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5%;
+    color: var(--main-color);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main__qna div{
+    width:50%;
+}
+
+.qna__first{
+    display: flex;
+    flex-direction: column;
+}
+
+.qna__first span:first-child{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.qna__first span:nth-child(2){
+    font-size: 50px;
+}
+
+.qna__first span:nth-child(3),
+.qna__first span:nth-child(4){
+    font-size: 17px;
+}
+
+.first__icons{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.first__icons a{
+    margin-right:20px;
+    color:black;
+}
+
+.qna__second li{
+    list-style: none;
+    padding-bottom: 5px;
+    height: 35px;
+}
+
+.qna__second input{
+    width:100%;
+    height: 100%;
+    border:1px solid var(--main-color);
+    padding-left: 20px;
+}
+
+.qna__second input:focus{
+    outline: none;
+}
+
+.qna__second input:hover{
+    border:2px solid var(--main-color);
+}
+
+.qna__second input::placeholder{
+    color: var(--main-color);
+}
+
+.qna__second button{
+    width:100px;
+    height: 35px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-size: 17px;
+}
+
+.second__lists li:nth-child(4){
+    height:110px;
+}
