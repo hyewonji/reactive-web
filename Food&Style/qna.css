@@ -70,11 +70,33 @@
 .qna__second button{
     width:100px;
     height: 35px;
+    border:none;
     background-color: var(--main-color);
     color: var(--white-color);
     font-size: 17px;
 }
 
+.qna__second button:hover{
+    color:var(--main-color);
+    background-color: #8B69C2;
+}
 .second__lists li:nth-child(4){
     height:110px;
+}
+
+@media screen and (max-width:768px){
+    .main__qna{
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second__lists{
+        padding-left: 0;
+    }
+
+    .qna__first,
+    .qna__second{
+        padding-top:60px;
+    }
 }
