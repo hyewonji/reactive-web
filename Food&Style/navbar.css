@@ -5,12 +5,12 @@
     align-items: center;
     padding: 8px 30px;
     width:100%;
-    background-color: white;
+    background-color: var(--white-color);
 }
 
 .navbar__logo{
     font-size: 30px;
-    color:#47287C;
+    color: var(--main-color);
     font-family: 'Bad Script', cursive;
 }
 
@@ -37,7 +37,7 @@
     top : 24px;
     right: 24px;
     font-size: 25px;
-    color: #47287C;
+    color: var(--main-color);
 }
 
 @media screen and (max-width:768px){
@@ -66,7 +66,7 @@
     }
 
     .navbar__menu a{
-        color:white;
+        color:var(--white-color);
     }
 
     .navbar__menu li:first-child a{
@@ -83,11 +83,11 @@
 
     .navbar__menu.active{
         display: flex;
-        background-color: #47287C;
+        background-color: var(--main-color);
     }
 
     .navbar__toggleBtn.active{
-        color:white;
+        color:var(--white-color);
     }
 
 

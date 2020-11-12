@@ -1,9 +1,5 @@
-:root{
-    --main-color:#47287C;
-}
-
 .main__main{
-    background-color: white;
+    background-color: var(--white-color);
     margin: 200px 0;
     padding:50px 160px 50px 50px;
     display:flex;
