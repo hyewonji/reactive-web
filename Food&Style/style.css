@@ -5,6 +5,7 @@
 @import "introduction.css";
 @import "qna.css";
 @import "top.css";
+@import "copywrite.css";
 
 *{
     box-sizing: border-box;

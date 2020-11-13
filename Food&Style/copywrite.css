@@ -1,0 +1,16 @@
+.copywrite{
+    width:100%;
+    color: var(--main-color);
+    position: relative;
+    bottom: 25%;
+    padding: 5%;
+}
+
+@media screen and (max-width:768px){
+    .copywrite{
+        margin-right: 0;
+        padding: 10%;
+        bottom: 5%;
+        
+    }
+}
