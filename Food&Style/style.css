@@ -12,6 +12,7 @@
 
 :root{
     --main-color:#47287C;
+    --side-color:#8B69C2;
     --white-color:white;
 }
 
@@ -35,3 +36,6 @@ body{
     background-size: 100% 50%;
 }
 
+.goTop{
+
+}

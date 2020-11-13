@@ -1,3 +1,7 @@
+.js-main{
+    padding-top: 100px;
+}
+
 .main__main{
     background-color: var(--white-color);
     margin: 200px 0;
@@ -49,6 +53,10 @@
 }
 
 @media screen and (max-width:768px){
+    .js-main{
+        padding-top: 0px;
+    }
+
     .main__main{
         flex-direction: column;
         margin: 70px 0;

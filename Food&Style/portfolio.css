@@ -53,6 +53,10 @@
     color: var(--white-color);
 }
 
+.portfolio__lists a:nth-child(1):hover{
+    color:#00608d;
+}
+
 @media screen and (max-width:768px){
     .portfolio__lists{
         flex-direction: column;

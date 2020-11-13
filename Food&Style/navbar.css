@@ -8,6 +8,10 @@
     background-color: var(--white-color);
 }
 
+.js-navbar a{
+    text-decoration: none;
+}
+
 .navbar__logo{
     font-size: 30px;
     color: var(--main-color);
@@ -26,9 +30,13 @@
     font-size:17px;
 }
 
+
 .navbar__menu a{
-    text-decoration: none;
     color:grey;
+}
+
+.navbar__menu a:hover{
+    color:var(--side-color)
 }
 
 .navbar__toggleBtn{
@@ -61,7 +69,7 @@
 
     .navbar__menu li{
         width:170px;
-        border-bottom: 2px solid #8B69C2;
+        border-bottom: 2px solid var(--side-color);
         text-align: center;
     }
 
@@ -70,7 +78,7 @@
     }
 
     .navbar__menu li:first-child a{
-        color: #8B69C2;
+        color:var(--side-color);
     }
 
     .navbar__menu li:last-child{
